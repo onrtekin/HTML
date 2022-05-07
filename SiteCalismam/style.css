@@ -1,21 +1,32 @@
 header,footer{
     display:flex;
+    background-color:gainsboro;
+    padding: 30px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
     
 }
-header{
-    justify-content: space-between;
+
+footer p{
+    margin-top: 0;
+}
 }
 a{
+
     text-decoration: none;
     color: black;
 }
 
+a:hover{
+    text-decoration: solid;
 
+}
 
 .anasayfa{
     background-color: azure;
 }
-.urunler{
+.personeller{
     background-color: antiquewhite;
 }
 .oneriler{
@@ -23,4 +34,39 @@ a{
 }
 .hakkimizda{
     background-color:bisque;
+}
+.anasayfa img{
+    width: 50%;
+    height: 50%;
+}
+.resimler img{
+    width: 500px;
+    height: 400px;
+
+}
+.resimler{
+    display: flex;
+    flex-direction: column;
+}
+.oneriler img{
+    width: 500px;
+    height: 400px;
+}
+.hakkimizda ul li{
+    margin-bottom: 10px;
+    background-color: azure;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.icerik{
+    display: flex;
+    justify-self: start;
+}
+.icerik form{
+    background-color:cornsilk;
+    height: 200px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
