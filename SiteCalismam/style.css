@@ -23,7 +23,8 @@ a{
 }
 
 a:hover{
-    text-decoration: solid;
+    text-decoration: underline;
+
 
 
 }
